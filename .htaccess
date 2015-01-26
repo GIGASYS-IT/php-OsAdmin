@@ -1,0 +1,4 @@
+# APACHE REWRITE ENGINE
+# Be sure your current directory have 'AllowOverride All'
+RewriteEngine On
+RewriteRule ^adm/(.*)$ /controller.php?module=$1&$2&$3
