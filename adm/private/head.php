@@ -19,4 +19,16 @@ ob_implicit_flush ();
     if (empty($MODULE)) { $MODULE = ""; }
     ?>
     <base href="<?php echo $PROTO.$_SERVER['HTTP_HOST'].$MODULE; ?>" />
+
+    <!-- Default CSS common to every theme -->
+    <link rel="stylesheet" href="/style/common-css/common.css">
 </head>
+
+
+<?php
+// include common css
+
+// INCLUDE THE HEAD SECTION FOR THE SELECTED THEME
+include_once($THEME."head.php");
+
+?>

@@ -13,6 +13,8 @@ $INCLUDE="amd/include/";
 $PRIV="adm/private/";
 $MODULE="";
 
+$THEME="style/theme/default/";
+
 include_once("adm/private/mainlib.php");
 set_error_handler("myErrorHandler");
 
